@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.levi.explosion.common.CustomRootView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/container_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.levi.explosion.pixelbitmap.PixelStyleView
+        android:id="@+id/psv"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="100dp"
+            android:textSize="24dp"
+            android:text="能能蛋,圣诞节快乐!\n今天不许调皮了!\n是乖孩子,就带你吃好吃的!"
+            android:textColor="#FA4A76"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+</com.levi.explosion.common.CustomRootView>
